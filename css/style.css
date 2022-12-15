@@ -13,12 +13,19 @@ body {
   }
  .navbar-nav{
   display: flex;
-  
+  text-decoration: none;
+  color: white;
+ }
+ .nav-item a{
+  color: green;
+  font-size: 2rem;
+  padding: 2rem ;
  }
   a {
     color: #1e1e1e;
     transition: all 0.5s ease-in-out;
   }
+ 
   
   a:hover {
     color: #0078ff;
@@ -81,8 +88,8 @@ body {
     background-position: center center;
   }
   
-  .overlay-mf {
-    background-color: #0078ff;
+  .container{
+    font-weight: bold;
   }
   
   .overlay-mf {
@@ -105,7 +112,10 @@ body {
     height: 100%;
     display: table;
   }
-  
+  .contactForm{
+    padding-bottom: 4rem;
+  }
+ 
   .table-cell {
     display: table-cell;
     vertical-align: middle;
